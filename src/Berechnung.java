@@ -20,6 +20,7 @@ public class Berechnung {
         cay = day;
         System.out.println("test");
         System.out.println("test02");
+
         while(ct<at){
             cax = k*t* Math.sin(sax)*(dt*dt)+cax;
             cay = k*t* Math.sin(say)*(dt*dt)+cay;
