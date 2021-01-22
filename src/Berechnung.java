@@ -18,6 +18,7 @@ public class Berechnung {
         k =  (24*r)/(m*(l*l));
         cax = dax;
         cay = day;
+        System.out.println("test");
         while(ct<at){
             cax = k*t* Math.sin(sax)*(dt*dt)+cax;
             cay = k*t* Math.sin(say)*(dt*dt)+cay;
